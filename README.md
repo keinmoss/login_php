@@ -20,13 +20,13 @@ Consiste en un sistema básico de autenticación donde un usuario puede:
 
 1. **Registro de usuarios:**  
    Guarda el nombre, correo y contraseña del usuario.  
-   La contraseña no se guarda directamente, sino en formato *hash* usando `password_hash()`.
+   La contraseña no se guarda directamente, sino en formato hash usando password_hash().
 
 2. **Login:**  
-   Verifica el correo y la contraseña con `password_verify()`.
+   Verifica el correo y la contraseña con password_verify().
 
 3. **Sesiones:**  
-   Utilizo `session_start()` para manejar la sesión del usuario  
+   Utilizo session_start() para manejar la sesión del usuario  
    y permitir acceso solo a quienes hayan iniciado sesión.
 
 4. **Página protegida:**  
