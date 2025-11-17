@@ -1,4 +1,4 @@
-# Sistema de Login en PHP y MySQL
+Sistema de Login en PHP y MySQL
 
 Este es un pequeño proyecto hecho para la actividad B1.  
 Consiste en un sistema básico de autenticación donde un usuario puede:
@@ -8,7 +8,7 @@ Consiste en un sistema básico de autenticación donde un usuario puede:
 - Acceder a una página protegida solo si tiene sesión activa
 - Cerrar sesión
 
-## ¿Qué utilicé?
+¿Qué utilicé?
 
 - PHP
 - MySQL (MariaDB)
@@ -16,7 +16,7 @@ Consiste en un sistema básico de autenticación donde un usuario puede:
 - phpMyAdmin
 - HTML y un poco de CSS para mejorar el diseño
 
-## ¿Qué hace el sistema?
+¿Qué hace el sistema?
 
 1. **Registro de usuarios:**  
    Guarda el nombre, correo y contraseña del usuario.  
@@ -36,7 +36,7 @@ Consiste en un sistema básico de autenticación donde un usuario puede:
 5. **Cerrar sesión:**  
    Destruye la sesión y regresa al login.
 
-## Base de datos
+Base de datos
 
 Nombre: **login_php**
 
@@ -48,7 +48,7 @@ Columnas:
 - correo (varchar)
 - password (varchar, hash)
 
-## Notas
+Notas
 
 El proyecto fue hecho con fines de aprendizaje y cumple con los requisitos de la actividad.  
 Se puede mejorar el diseño o agregar nuevas funciones más adelante.
